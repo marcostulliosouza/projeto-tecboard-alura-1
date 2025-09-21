@@ -1,12 +1,44 @@
-# React + Vite
+# Tecboard - Projeto de Estudo Front-end Alura
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido como parte do curso de Front-end da **Alura**, com o objetivo de praticar conceitos de **React**, **componentização** e **manipulação de estados**.
 
-Currently, two official plugins are available:
+## 📝 Descrição
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O Tecboard é uma aplicação simples para **gerenciar eventos de tecnologia**.  
+Permite adicionar eventos, visualizar detalhes e organizar por temas (como Front-end, Back-end, Cloud, etc.).  
+O foco do projeto é **aprender e aplicar boas práticas de React**, sem necessidade de persistência em banco de dados.
 
-## Expanding the ESLint configuration
+## 🚀 Funcionalidades Implementadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Criação de eventos com **título, data, tema e imagem**  
+- Organização de eventos por **categorias/temas**  
+- Visualização da lista de eventos cadastrados  
+- Aplicação de **componentes reutilizáveis** e **prop drilling** no React
+
+## 🛠 Tecnologias Utilizadas
+
+- **React** (componentes funcionais, props, state)  
+- **Vite** (setup rápido de projeto)  
+- **JavaScript moderno (ES6+)**  
+- **CSS** para estilização básica
+
+## 📦 Como rodar o projeto localmente
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/marcostulliosouza/projeto-tecboard-alura-1.git
+   cd projeto-tecboard-alura-1
+   ```
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+3. Inicie a aplicação:
+   ```bash
+   npm run dev
+   ```
+## 📌 Observações
+
+  - Projeto feito apenas para fins de estudo
+  - Não possui integração com backend, todos os dados são armazenados em memória
+  - Ideal para prática de React e conceitos de Front-end
