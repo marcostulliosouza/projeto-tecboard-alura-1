@@ -1,6 +1,7 @@
 # Tecboard - Projeto de Estudo Front-end Alura
 
 Este projeto foi desenvolvido como parte do curso de Front-end da **Alura**, com o objetivo de praticar conceitos de **React**, **componentização** e **manipulação de estados**.
+<img width="3456" height="3524" alt="image" src="https://github.com/user-attachments/assets/bfecef34-b0ab-4f18-8f17-73a3de71d34e" />
 
 ## 📝 Descrição
 
